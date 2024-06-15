@@ -1,0 +1,23 @@
+:root{
+    --carbon-black:#121212;
+    --black:#0c0c0c;
+    --olive-green:#556b2f;
+}
+*{
+    padding:0;
+    margin:0;
+}
+header{
+    background-color: var(--carbon-black);
+    color: white;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2vw 5vw;
+}
+header nav a{
+    color: white;
+    text-decoration: none;
+    font-size: large;
+    padding: 8px;
+}
