@@ -8,7 +8,8 @@
     margin:0;
 }
 header{
-    background-color: var(--carbon-black);
+    height: 4vh;
+    background-color: var(--black);
     color: white;
     display:flex;
     align-items: center;
@@ -20,4 +21,37 @@ header nav a{
     text-decoration: none;
     font-size: large;
     padding: 8px;
+    transition: 300ms;
+}
+header nav a:hover{
+    color: var(--olive-green);
+}
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    color: white;
+    height: 96vh;
+    background-color: var(--carbon-black);
+}
+section div{
+    width: 40%;
+}
+section div h2{
+    font: 4em Verdana;
+}
+section div p:nth-child(2){
+    font: 2em Verdana;
+    color: var(--olive-green);
+}
+section div p:nth-child(3){
+    font: 1.2em Verdana;
+}
+section div p:nth-child(3) small{
+    font: Verdana;
+}
+picture img{
+height: 35em;
+border-radius: 60px;
 }
